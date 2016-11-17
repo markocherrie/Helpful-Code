@@ -6,4 +6,4 @@
 
 library(gtools)
 mydata$cholesterol<-quantcut(mydata$cholesterol, 4)
-mydata$cholesterol_Q<-ifelse(mydata$cholesterol==paste(levels(mydata$cholesterol)[1]),1,0)
+mydata$cholesterol_Q<-ifelse(mydata$cholesterol==paste(levels(mydata$cholesterol)[4]),1,0)
