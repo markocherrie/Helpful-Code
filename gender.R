@@ -1,3 +1,7 @@
+####### BASED ON CODE BY https://www.r-bloggers.com/the-gender-of-big-data/
+####### What is the percentage of male/female in top academic positions (chancellor/vice chancellor) in UK?
+####### Data from wiki
+
 install.packages('googleViz')
 setwd("C:/Users/mcherrie/Google Drive/gender")
 library(genderizeR)
