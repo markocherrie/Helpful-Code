@@ -1,4 +1,4 @@
-#Extract raster valued for given points
+#Extract raster values for given points
 
 library(raster)
 RASTER <- raster('shapes/t36yes800100.img')
