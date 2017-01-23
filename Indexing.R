@@ -10,4 +10,4 @@ x<-x[!duplicated(x[,1]),]
 
 
 ## drop if missing in one column
-x<-x[!(is.na(x[,1)]
+x<-x[!(is.na(x[,1])),]
