@@ -11,3 +11,8 @@ x<-x[!duplicated(x[,1]),]
 
 ## drop if missing in one column
 x<-x[!(is.na(x[,1])),]
+
+
+## select non consecutive columns 
+cols <- c(1, 4:8, 10)
+x<-x[,cols]
