@@ -1,9 +1,0 @@
-## I use this all the time!!!! 
-
-## save a a function that you have written
-save("add2", file="myFunction.Rdata")
-
-## You can also import the function to any other R session with
-load("myFunction.Rdata")
-
-#Credit: http://stackoverflow.com/questions/14403332/make-a-user-created-function-in-r
