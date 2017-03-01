@@ -3,6 +3,8 @@
 
 saveRDS(shp, "shapes/shp.rds")
 
+# Can confirm that a shapefile with 6976 features and 11 fields went from loading in 10+ minutes to about 15 seconds
+
 # Credit: http://r-sig-geo.2731867.n2.nabble.com/Long-time-to-load-shapefiles-td7584869.html
 
 ## Next one, saving and re-using functions. I use this all the time!!!! 
