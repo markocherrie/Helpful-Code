@@ -1,5 +1,8 @@
 ##### Spatial data procedures can throw up more problems than with a dataframe
-##### There's a lot of good resouces out there
+##### There's a lot of good resouces out there:
+
+# http://www.maths.lancs.ac.uk/~rowlings/Teaching/UseR2012/cheatsheet.html
+
 ##### Here are some bit and bobs that have come in handy
 
 
