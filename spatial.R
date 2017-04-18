@@ -13,3 +13,14 @@
 
 spatial@data$exp[is.na(spatial@data$exp) & spatial@data$condition==1]<-mean(spatial@data$exp[spatial@data$condition==1], na.rm=T)
 spatial@data$exp[is.na(spatial@data$exp) & spatial@data$condition==0]<-mean(spatial@data$exp[spatial@data$condition==0], na.rm=T)
+
+
+## Splitting up a large shapefile into bitesize pieces
+## Example datazones by local authority
+path="C:/mcherrie/"
+geo<-readOGR(path, layer="DZ_2011_EoR_Scotland")
+list<-unique(geo@data$CouncilA_2)
+for (i in list){
+  geo2<-subset(geo, CouncilA_2==i)
+  saveRDS(geo2, paste0(path,i, ".rds"))
+}
