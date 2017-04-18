@@ -24,3 +24,12 @@ for (i in list){
   geo2<-subset(geo, CouncilA_2==i)
   saveRDS(geo2, paste0(path,i, ".rds"))
 }
+
+
+## A very frustrating but usual occurence
+
+## this does not work
+geo<-readOGR("C:/pathpathpath/", layer="OutputArea2011_EoR")
+
+## this works
+geo<-readOGR("C:/pathpathpath", layer="OutputArea2011_EoR")
