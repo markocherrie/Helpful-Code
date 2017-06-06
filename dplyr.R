@@ -13,6 +13,11 @@ data2012 %>%
 
 # Create a column which is the rank of another
   mutate(densitymean2012rank = row_number(-densitymean2012))%>%
+  
+# Filter by a multiple subsetting options
+  filter(densitymean2012 > 1, densitymean2012rank == 1)
  
 # only have a selection of columns in the final dataset
   select(Council, densitymean2012, densitymean2012rank)
+  
+
