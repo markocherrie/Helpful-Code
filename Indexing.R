@@ -19,3 +19,6 @@ x<-x[!(is.na(x[,1])),]
 ## select non consecutive columns 
 cols <- c(1, 4:8, 10)
 x<-x[,cols]
+
+# to get every nth row (example=3rd)
+x<-x[seq(1, nrow(x), 3), ]
