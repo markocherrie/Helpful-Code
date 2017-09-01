@@ -1,0 +1,18 @@
+# This could be quite useful, the function:
+# "Writes an ASCII text representation of an R object to a file or connection, or uses one to recreate the object."
+
+# Here's a silly example:
+
+# create conditions for subsetting columns
+sums<-as.data.frame(colSums(Master[,2:ncol(Master)], na.rm = T) > 10000)
+sums<-subset(sums, sums[1]==T)
+sums <- data.frame(names = row.names(sums), sums)
+list<-list(sums$names)
+
+## dput
+dput(list)
+
+## This gives you the code which can be passed into a linear model, or subset function for example... 
+list<-c("colname1", "colname2", "colname3")
+
+## Will update later with a better example...
