@@ -3,3 +3,7 @@
 table(grepl("hello", data$greetings))
 
 ## More on regular expressions another time
+
+# If you want to find an exact match, encase the search with "\\b", for example:
+
+data$greetings<-sub("\\bhello\\b", "hiya", data$greetings)
