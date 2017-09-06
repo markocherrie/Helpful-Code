@@ -1,3 +1,7 @@
+
+# Don't know how many times that this has caught me out but DON'T LOAD PLYR AFTER DPLYR !
+# IF YOU NEED TO USE BOTH THEN LIBRARY(PLYR) THEN LIBRARY(DPLYR) ... YES I AM SHOUTING AT THE SCREEN !
+
 # Because I always forget the exact specifications for a dplyr call, heres a lengthy command with several options
 
 # select data then pipe it into functions to do stuff to it
