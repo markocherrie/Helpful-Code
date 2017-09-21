@@ -1,6 +1,6 @@
 #Publishing to Github Pages
 
-# Standalone in the YAML front matter?
+# mode: standalone in the YAML front matter?
 
 # Rpubs
-# Selfcontained in the YAML front matter?
+# mode: selfcontained in the YAML front matter?
