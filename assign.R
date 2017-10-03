@@ -38,3 +38,11 @@ noquote(paste(list[-9], collapse=", "))
 multiplot(ya, da,da2, ya2, cols=4)
 
 
+
+##################### and check out the get function
+var="dynamicgroupvar"
+grouped <- group_by(df, get(var), date)
+
+
+
+
