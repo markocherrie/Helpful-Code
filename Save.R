@@ -16,3 +16,5 @@ save("add2", file="myFunction.Rdata")
 load("myFunction.Rdata")
 
 #Credit: http://stackoverflow.com/questions/14403332/make-a-user-created-function-in-r
+
+# NOTE TO SELF BENCH MARK THIS!!!
