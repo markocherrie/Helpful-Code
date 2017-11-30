@@ -1,4 +1,4 @@
-# Sometimes you want to geocode some addresses, too many to do manually and not enough to go through a proper batch procedure.
+# Sometimes you want to geocode some addresses, too many to do manually and not enough to go through a proper batch procedure (~10-20).
 # What you want to do is take a function that queries a geocoder and then spit the results back into the dataframe.
 
 # First of all create a geocoding function
