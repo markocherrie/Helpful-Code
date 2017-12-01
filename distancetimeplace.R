@@ -5,7 +5,6 @@
 # https://developers.google.com/maps/documentation/distance-matrix/
 Gkey="lklllldlkmnlfkndlkfnsl"
 
-
 # load packages
 library(googleway)
 
