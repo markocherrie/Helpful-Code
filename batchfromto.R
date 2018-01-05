@@ -7,3 +7,6 @@ input3<-input2+299
 input3[length(input3)]<-max(input)
 input4<-data.frame(filebatchfrom=input2, filebatchto=input3)
 
+# The main crux here is the modulo symbol, which divides the number and gives the remainder
+# I use it here as a condition to only give me numbers that divide exactly by 300 (i.e. 0 remainder)
+
