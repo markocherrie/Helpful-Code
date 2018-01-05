@@ -1,5 +1,5 @@
 # say you want to iterate over a number of files (n=3971 in the example), but you want to do it in 300 file batches
-# this will split your files so you can then run the function via ddply
+# this will split your files so you can then run the function via mdply
 
 input<-0:3971
 input2<-input[(input %% (300)) == 0]+1
