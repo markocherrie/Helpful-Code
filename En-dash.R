@@ -1,6 +1,6 @@
-# have you had to where you can't reference a cell value, from an imported dataset (excel in my case)
+# If you can't reference a cell value, from an imported dataset (excel in my case), this may be the problem
 
-# the reason might be that you have an n-dash instead of a hyphen
+# The reason might be that you have an En-dash instead of a hyphen
 
 # Put the correct code for the En-dash and it will work
 
