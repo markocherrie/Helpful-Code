@@ -1,0 +1,10 @@
+# say you have to columns both with NA's and unique values, for example:
+
+a<-c(1,2,3,NA,5,6,7,8,NA,10)
+b<-c(NA,NA,NA,4,NA,NA,NA,NA,9,NA)
+c<-data.frame(full=dplyr::coalesce(a,b))
+
+# I love this! It's so useful when you are working with data coming from different places. 
+# A concrete example is when you are geocoding records, and some fail and have an NA.
+# You re-run the missing ones and then want to merge with the ones that worked previously!
+# Will update with this example later on.
