@@ -21,8 +21,8 @@ cols <- c(1, 4:8, 10)
 x<-x[,cols]
 
 # select columns based on regular expression
-#x<-x[grep("^D", colnames(x), ]
-# FIX THIS^
+x<-x[,grep("hi|hello",names(x))]
+
 
 
 # to get every nth row (example=3rd)
